@@ -27,16 +27,28 @@ module.exports = {
         "no-unused-vars": "warn",
         "react/require-default-props": "off",
         "react/react-in-jsx-scope": "off",
-        "react/jsx-props-no-spreading": "warn",
+        "react/jsx-props-no-spreading": "off",
         "react/function-component-definition": "off",
         "no-shadow": "off",
         "import/extensions": "off",
         "import/no-extraneous-dependencies": "off",
         "no-underscore-dangle": "off",
         "react/no-deprecated": "off",
-        "i18next/no-literal-string": ["error", { markupOnly: true }],
+        "i18next/no-literal-string": 
+        [
+            "error", 
+            { markupOnly: true, ignoreAttribute: ["data-testid"] }
+        ],
     },
     globals: {
         __IS_DEV__: true,
     },
+    overrides: [
+        {
+            files: ['**/src/**/*.test.{ts,tsx}'],
+            rules: {
+                "i18next/no-literal-string": "off"
+            }
+        }
+    ]
 };
