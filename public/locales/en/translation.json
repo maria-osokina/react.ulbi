@@ -8,5 +8,7 @@
   "Throw error": "Throw error",
   "О сайте": "About Page",
   "Краткий язык": "En",
-  "Войти": "Login"
+  "Войти": "Login",
+  "Введите username": "Username",
+  "Введите пароль": "Password"  
 }
