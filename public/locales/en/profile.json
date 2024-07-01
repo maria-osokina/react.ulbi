@@ -12,5 +12,10 @@
     "Укажите валюту": "Currency",
     "Укажите страну": "Country",
     "Произошла ошибка при загрузке профиля": "There was an error loading your profile",
-    "Попробуйте обновить страницу": "Try refreshing the page"
+    "Попробуйте обновить страницу": "Try refreshing the page",
+    "Ошибка сервера": "Server Error",
+    "Данные не указаны":"Data not specified",
+    "Имя и фамилия обязательны":"First and last name are required",
+    "Некорректный возраст":"Incorrect age",
+    "Некорректная страна":"Incorrect country"
 }
