@@ -64,8 +64,5 @@ module.exports = {
                 "max-len": "off"
             }
         }
-    ],
-    ignores: [
-        ".fttemplates/"
     ]
 };
